@@ -5,7 +5,7 @@ import './index.css'
 import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
 import Login from './pages/Login.jsx'
-import Content from './pages/Content.jsx'
+import UseState from './pages/UseState.jsx'
 
 import {
   createBrowserRouter,
@@ -18,8 +18,8 @@ const router = createBrowserRouter([
     element:  <App />,
   },
   {
-    path: "/content",
-    element:  <Content/>,
+    path: "/useState",
+    element:  <UseState/>,
   },
   {
     path: "/about",

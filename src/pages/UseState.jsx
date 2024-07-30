@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import HeaderContent from "../componets/HeaderContend/HeaderContent"
-import './Content.css'
+import './UseState.css'
 
-function Content() {
+function UseState() {
 
     const [num,setNum] = useState(0) 
 
     function check(){
         if(num === 0 || num < 0){
-           alert("number is 0");     
+           console.error("number is 0");     
         }
     }
 
@@ -43,4 +43,4 @@ function Content() {
   )
 }
 
-export default Content
+export default UseState

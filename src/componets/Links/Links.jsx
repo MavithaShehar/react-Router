@@ -6,7 +6,7 @@ function Links() {
 
     <div className='link'>
     <ManuLinke linkname="Home" url="/" />
-    <ManuLinke linkname="Content" url="/Content" />
+    <ManuLinke linkname="UseState" url="/useState" />
     <ManuLinke linkname="About" url="/about" />
     <ManuLinke linkname="Contact" url="/contact" />
     <ManuLinke linkname="Login" url="/login" />
