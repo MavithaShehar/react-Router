@@ -1,0 +1,16 @@
+body, html, #wrapper {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    height: 100vh;
+    width: 100vw;
+   
+  }
+  
