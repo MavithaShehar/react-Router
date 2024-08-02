@@ -10,7 +10,8 @@ function Links() {
     <ManuLinke linkname="Conditional Rendering" url="/ConditionalRendering" />
     <ManuLinke linkname="About" url="/about" />
     <ManuLinke linkname="Contact" url="/contact" />
-    <ManuLinke linkname="Login" url="/login" />
+    <ManuLinke linkname="RestOperator" url="/restOperator" />
+    
     </div>
 
   )

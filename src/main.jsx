@@ -4,9 +4,10 @@ import App from './App.jsx'
 import './index.css'
 import About from './pages/About.jsx'
 import Contact from './pages/Contact.jsx'
-import Login from './pages/Login.jsx'
 import UseState from './pages/UseState.jsx'
 import ConditionalRendering from './pages/ConditionalRendering.jsx'
+import RestOperator from './pages/RestOperator.jsx'
+
 
 import {
   createBrowserRouter,
@@ -35,8 +36,8 @@ const router = createBrowserRouter([
     element:  <Contact />,
   },
   {
-    path: "/login",
-    element:  <Login />,
+    path: "/restOperator",
+    element:  <RestOperator />,
   },
   
 ]);
