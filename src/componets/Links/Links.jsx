@@ -11,6 +11,8 @@ function Links() {
     <ManuLinke linkname="About" url="/about" />
     <ManuLinke linkname="Contact" url="/contact" />
     <ManuLinke linkname="RestOperator" url="/restOperator" />
+    <ManuLinke linkname="SpreadOperator" url="/spreadOperator" />
+    
     
     </div>
 

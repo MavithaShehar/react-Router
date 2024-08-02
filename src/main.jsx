@@ -7,6 +7,7 @@ import Contact from './pages/Contact.jsx'
 import UseState from './pages/UseState.jsx'
 import ConditionalRendering from './pages/ConditionalRendering.jsx'
 import RestOperator from './pages/RestOperator.jsx'
+import SpreadOperator from './pages/SpreadOperator.jsx'
 
 
 import {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: "/restOperator",
     element:  <RestOperator />,
+  },
+  {
+    path: "/spreadOperator",
+    element:  <SpreadOperator />,
   },
   
 ]);
