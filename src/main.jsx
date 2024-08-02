@@ -8,6 +8,7 @@ import UseState from './pages/UseState.jsx'
 import ConditionalRendering from './pages/ConditionalRendering.jsx'
 import RestOperator from './pages/RestOperator.jsx'
 import SpreadOperator from './pages/SpreadOperator.jsx'
+import UseRef from './pages/UseRef.jsx'
 
 
 import {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
   {
     path: "/spreadOperator",
     element:  <SpreadOperator />,
+  },
+  {
+    path: "/useRef",
+    element:  <UseRef />,
   },
   
 ]);
